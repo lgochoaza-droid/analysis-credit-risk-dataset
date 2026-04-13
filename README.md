@@ -2,7 +2,7 @@
 
 ## Objective
 
-Analyze a credit risk dataset to identify which client segments has the heighest default probability
+Analyze a credit risk dataset to identify key factors and client segments associated with higher default risk.
 
 ## Source of Data
 
@@ -33,13 +33,13 @@ This dataset contains information from the clients creditworthiness. It includes
 
 <p align="center">
   <em>
-    Table 1. Heighest default probability per segment.
+    Table 1. Highest default probability per segment.
   </em>
 </p>
 
 ## Results.
 
-We find a general default probability of 11.10% which could be heigher or smaller according to some properties that depends of the segmentation. If we see Table 1., we find that the heighest default probability per segmentation isn't very different that the general probability (with the exception of possitive compensation).
+We find a general default probability of 11.10% which could be heigher or smaller according to some properties that depends of the segmentation. If we see Table 1., we find that the highest default probability per segmentation isn't very different that the general probability (with the exception of possitive compensation).
 
 After, we find that the mean balance in default group is 802761 USD and not-default group is 1220939 USD, seems that clients with default result have smaller balances but the results of Kruskal-wallis test (H = 1.68, p-value = 0.19. Also see Fig 1.) told us that there is not enough evidence to distinguish between the two groups.
 
@@ -76,8 +76,6 @@ In the same way, we don't find differences in the payments due between the two g
 - Incorporate multiple variables when assessing credit risk, rather than relying on a single factor such as balance or installment size.
 
 - Consider transforming or redefining highly skewed variables (such as DUE_PAYMENT) to improve their usefulness in risk analysis.
-
-- Further analysis using predictive models (e.g., logistic regression) is recommended to better capture the combined effect of multiple variables on default probability.
 
 - Collect or include additional financial indicators (such as income or credit score) to improve the accuracy of risk assessment.
 
