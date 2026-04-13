@@ -24,14 +24,12 @@ This dataset contains information from the clients creditworthiness. It includes
 - mean size install in default: 25006 USD
 - heighest default probability by segment:
 
-| -------------- | -------- | ------------------- | --------- |
 | segment        | value    | default probability | size data |
 | -------------- | -------- | ------------------- | --------- |
 | Marital status | Married  | 11.23%              | 35412     |
 | Gender         | Femenine | 11.74%              | 9648      |
 | Compensation   | Yes      | 16,13%              | 16707     |
 | Client Type    | Rural    | 12,81%              | 26142     |
-| -------------- | -------- | ------------------- | --------- |
 
 <p align="center">
   <em>
